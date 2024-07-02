@@ -25,7 +25,7 @@ export const router = createRouter({
             component: AppProjects
         },
         {
-            path: '/project-show',
+            path: '/project-show/:slug',
             name: 'project-show',
             component: ProjectShow
         }
